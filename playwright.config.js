@@ -2,7 +2,7 @@
 import { defineConfig } from '@playwright/test';
 
 
-onst timestamp = new Date()
+const timestamp = new Date()
   .toISOString()
   .replace(/[:.]/g, '-');
 
