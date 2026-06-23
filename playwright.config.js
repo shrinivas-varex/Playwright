@@ -1,6 +1,12 @@
 
 import { defineConfig } from '@playwright/test';
 
+
+onst timestamp = new Date()
+  .toISOString()
+  .replace(/[:.]/g, '-');
+
+
 export default defineConfig({
  
 
