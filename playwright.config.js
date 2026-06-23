@@ -8,7 +8,7 @@ reporter: [
     ['list'],
     ['monocart-reporter', {
       name: 'Playwright Test Report',
-      outputFile: './monocart-report/index.html'
+      outputFile: `./monocart-report/${timestamp}/index.html`
     }]
   ],
 
